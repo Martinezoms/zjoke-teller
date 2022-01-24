@@ -9,7 +9,7 @@ function toggleButton() {
 // passing the joke into voiceRss APi
 function tellMejoke(joke) {
   VoiceRSS.speech({
-    key: API_KEY,
+    key: "49046152f06f486fb3019b3ea81bdd77",
     src: joke,
     hl: "en-us",
     v: "Linda",
